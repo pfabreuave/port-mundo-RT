@@ -1,0 +1,149 @@
+.cover-container {
+  height: 100vh;
+  width: 100%;
+  object-fit: contain;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.video {
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
+}
+
+.cover-container > h1 {
+  color: white;
+  font-size: 100px;
+}
+
+.cover-container > p {
+  margin-top: 8px;
+  margin-bottom: 16px;
+  color: white;
+  font-size: 32px;
+}
+.skills{
+	font-size: 2.5rem;
+}
+
+.skills i{
+	
+	margin: 0 .3rem;
+	
+	transition: .4s ease;
+}
+
+.fa-html5{
+	color: red;
+}
+
+.fa-css3-alt{
+	color: #0098ff;
+}
+
+.fa-js{
+	color: #f0db4f;
+}
+
+.fa-react{
+	color: #61dafb;
+}
+
+.fa-angular{
+	color: #dd1b16;
+}
+
+.fa-database{
+	color: #61dafb;
+}
+
+.fa-node{
+	color: #0098ff;
+}
+.fa-github{
+	color:#040404
+}
+
+.fa-mainframe{
+	width: 40px; height: 25px;
+	background: url(/src/img/screen-1.webp) 2px / cover;
+	
+	border-radius: 20%;
+	transition: .4s ease;
+	
+}
+/*
+.fa-mainframe1{
+	width: 40px; height: 25px;
+	background: url(/build/bancos.jpg) 2px / cover;
+	background-image: url(/src/img/bancos.jpg);
+	background-image: url(/public/bancos.jpg);
+	border-radius: 20%;
+	transition: .4s ease;
+	
+}
+*/
+.fa-jcl{
+	
+	width: 40px; height: 25px;
+	background: url(/src/img/jclC.png) 2px / cover;
+	border-radius: 20%;
+
+	transition: .4s ease;
+	
+}
+
+.fa-vsam{
+	
+	width: 40px; height: 25px;
+	background: url(/src/img/vsam.ico) 2px / cover;
+	border-radius: 20%;
+	transition: .4s ease;
+	
+}
+
+.fa-cics{
+	
+	width: 40px; height: 25px;
+	background: url(/src/img/cicsC.png) 2px / cover;
+	border-radius: 20%;
+	transition: .4s ease;
+	
+}
+
+.fa-cobol{
+	
+	width: 40px; height: 25px;
+	background: url(/src/img/COBOL.ico) 2px / cover;
+	border-radius: 20%;
+	transition: .4s ease;
+	
+}
+
+.fa-adanat{
+	
+	width: 40px; height: 25px;
+	background: url(/src/img/adabas.jpg) 2px / cover;
+	border-radius: 20%;
+	transition: .4s ease;
+	
+}
+
+@media screen and (max-width: 960px) {
+  .cover-container > h1 {
+    font-size: 70px;
+    text-align: center;
+  }
+
+  .cover-container > p {
+    text-align: center;
+    font-size: 22px;
+    width: 85%;
+  }
+}
